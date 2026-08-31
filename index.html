@@ -1,152 +1,695 @@
 <!doctype html>
+<html lang="en"<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Layla's Lilies — Flower Bouquets</title>
 <meta name="description" content="Layla's Lilies — custom bouquets, fresh mixed flowers, eternal flowers, gifts and event florals.">
+
 <style>
 :root{--cream:#fff9f6;--pink:#e8a8bc;--pink2:#f3d6df;--rose:#c96f8d;--ink:#392a30;--sage:#71806b;--line:#ead8de}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,sans-serif;line-height:1.55}a{text-decoration:none;color:inherit}
-header{position:sticky;top:0;z-index:20;background:#fff9f6eF;backdrop-filter:blur(15px);border-bottom:1px solid var(--line)}
-nav{max-width:1180px;margin:auto;padding:15px 22px;display:flex;align-items:center;justify-content:space-between;gap:22px}.logo{font:italic 31px Georgia,serif;color:var(--rose)}.logo small{display:block;font:9px monospace;letter-spacing:2px;color:#765c65;font-style:normal}.links{display:flex;gap:22px;font:12px monospace}.links a:hover{color:var(--rose)}.pill{border:1px solid var(--ink);background:var(--ink);color:white;border-radius:999px;padding:11px 17px;font:10px monospace;letter-spacing:1px}
-.hero{max-width:1180px;margin:auto;padding:44px 22px 60px}.hero-img{display:block;width:100%;height:auto;border-radius:28px;box-shadow:0 25px 70px #8b5f7022}
-section{max-width:1180px;margin:auto;padding:82px 22px}.pink{max-width:none;background:var(--pink2);padding-left:max(22px,calc((100% - 1136px)/2));padding-right:max(22px,calc((100% - 1136px)/2))}
-.eyebrow{font:10px monospace;letter-spacing:2px;text-transform:uppercase;color:var(--sage)}h2{font:normal clamp(42px,6vw,72px)/1 Georgia,serif;letter-spacing:-2px;margin:8px 0 14px}.intro{max-width:680px;color:#75696d}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}.card{background:#fff;border:1px solid var(--line);padding:26px;min-height:195px}.card h3{font:normal 25px Georgia,serif;margin:15px 0 7px}.card p{font-size:14px;color:#75696d}
-.pricegrid{display:grid;grid-template-columns:1fr 1fr;gap:55px;margin-top:35px}.sub{font:normal 24px Georgia,serif}.row{display:flex;justify-content:space-between;gap:15px;border-bottom:1px solid var(--line);padding:12px 0;font-size:14px}.addgrid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}.addon{background:#fff;border:1px solid var(--line);padding:14px;display:flex;justify-content:space-between;gap:12px;font-size:13px}
-.formwrap{display:grid;grid-template-columns:.7fr 1.3fr;gap:55px}.form{background:#fff;border:1px solid var(--line);padding:28px}.fg{display:grid;grid-template-columns:1fr 1fr;gap:14px}label{display:block;font:9px monospace;letter-spacing:1px;text-transform:uppercase;margin-bottom:6px}input,select,textarea{width:100%;padding:12px;border:1px solid var(--line);background:#fffaf8;color:var(--ink);font:14px Arial;border-radius:3px}textarea{min-height:90px;resize:vertical}.full{grid-column:1/-1}
-.policygrid{display:grid;grid-template-columns:1fr 1fr;gap:50px;margin-top:28px}.policy{border-top:1px solid var(--line);padding:15px 0}.policy b{font:10px monospace;letter-spacing:1px;text-transform:uppercase}.policy p{font-size:14px;color:#75696d;margin:6px 0}
-.cta{max-width:none;background:var(--ink);color:white;text-align:center}.cta p{max-width:600px;margin:10px auto 25px;color:#ddd2d6}.cta .pill{background:transparent;border-color:white}
-footer{max-width:1180px;margin:auto;padding:27px 22px;display:flex;justify-content:space-between;font:10px monospace}
-@media(max-width:800px){.links{display:none}.hero{padding-top:25px}.grid,.pricegrid,.formwrap,.policygrid{grid-template-columns:1fr}.addgrid,.fg{grid-template-columns:1fr}.full{grid-column:auto}.hero-img{border-radius:18px}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,sans-serif;line-height:1.55}
+a{text-decoration:none;color:inherit}
+
+header{
+position:sticky;
+top:0;
+z-index:20;
+background:#fff9f6eF;
+backdrop-filter:blur(15px);
+border-bottom:1px solid var(--line)
+}
+
+nav{
+max-width:1180px;
+margin:auto;
+padding:15px 22px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:22px
+}
+
+.logo{
+font:italic 31px Georgia,serif;
+color:var(--rose)
+}
+
+.logo small{
+display:block;
+font:9px monospace;
+letter-spacing:2px;
+color:#765c65;
+font-style:normal
+}
+
+.links{
+display:flex;
+gap:22px;
+font:12px monospace
+}
+
+.links a:hover{color:var(--rose)}
+
+.pill{
+border:1px solid var(--ink);
+background:var(--ink);
+color:white;
+border-radius:999px;
+padding:11px 17px;
+font:10px monospace;
+letter-spacing:1px
+}
+
+.hero{
+max-width:1180px;
+margin:auto;
+padding:44px 22px 60px
+}
+
+.hero-img{
+display:block;
+width:100%;
+height:auto;
+border-radius:28px;
+box-shadow:0 25px 70px #8b5f7022
+}
+
+section{
+max-width:1180px;
+margin:auto;
+padding:82px 22px
+}
+
+.pink{
+max-width:none;
+background:var(--pink2);
+padding-left:max(22px,calc((100% - 1136px)/2));
+padding-right:max(22px,calc((100% - 1136px)/2))
+}
+
+.eyebrow{
+font:10px monospace;
+letter-spacing:2px;
+text-transform:uppercase;
+color:var(--sage)
+}
+
+h2{
+font:normal clamp(42px,6vw,72px)/1 Georgia,serif;
+letter-spacing:-2px;
+margin:8px 0 14px
+}
+
+.intro{
+max-width:680px;
+color:#75696d
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:14px;
+margin-top:30px
+}
+
+.card{
+background:#fff;
+border:1px solid var(--line);
+padding:26px;
+min-height:195px
+}
+
+.card h3{
+font:normal 25px Georgia,serif;
+margin:15px 0 7px
+}
+
+.card p{
+font-size:14px;
+color:#75696d
+}
+
+.pricegrid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:55px;
+margin-top:35px
+}
+
+.sub{
+font:normal 24px Georgia,serif
+}
+
+.row{
+display:flex;
+justify-content:space-between;
+gap:15px;
+border-bottom:1px solid var(--line);
+padding:12px 0;
+font-size:14px
+}
+
+.addgrid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:10px;
+margin-top:20px
+}
+
+.addon{
+background:#fff;
+border:1px solid var(--line);
+padding:14px;
+display:flex;
+justify-content:space-between;
+gap:12px;
+font-size:13px
+}
+
+.formwrap{
+display:grid;
+grid-template-columns:.7fr 1.3fr;
+gap:55px
+}
+
+.form{
+background:#fff;
+border:1px solid var(--line);
+padding:28px
+}
+
+.fg{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:14px
+}
+
+label{
+display:block;
+font:9px monospace;
+letter-spacing:1px;
+text-transform:uppercase;
+margin-bottom:6px
+}
+
+input,select,textarea{
+width:100%;
+padding:12px;
+border:1px solid var(--line);
+background:#fffaf8;
+color:var(--ink);
+font:14px Arial;
+border-radius:3px
+}
+
+textarea{
+min-height:90px;
+resize:vertical
+}
+
+.full{
+grid-column:1/-1
+}
+
+.policygrid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+margin-top:28px
+}
+
+.policy{
+border-top:1px solid var(--line);
+padding:15px 0
+}
+
+.policy b{
+font:10px monospace;
+letter-spacing:1px;
+text-transform:uppercase
+}
+
+.policy p{
+font-size:14px;
+color:#75696d;
+margin:6px 0
+}
+
+.cta{
+max-width:none;
+background:var(--ink);
+color:white;
+text-align:center
+}
+
+.cta p{
+max-width:600px;
+margin:10px auto 25px;
+color:#ddd2d6
+}
+
+.cta .pill{
+background:transparent;
+border-color:white
+}
+
+footer{
+max-width:1180px;
+margin:auto;
+padding:27px 22px;
+display:flex;
+justify-content:space-between;
+font:10px monospace
+}
+
+@media(max-width:800px){
+.links{display:none}
+.hero{padding-top:25px}
+.grid,.pricegrid,.formwrap,.policygrid{grid-template-columns:1fr}
+.addgrid,.fg{grid-template-columns:1fr}
+.full{grid-column:auto}
+.hero-img{border-radius:18px}
+}
 </style>
 </head>
 
 <body>
-<header><nav>
-<a class="logo" href="#"><small>HANDMADE FLORALS + GIFTS</small>Layla's Lilies</a>
-<div class="links"><a href="#menu">BOUQUETS</a><a href="#pricing">PRICING</a><a href="#gallery">GALLERY</a><a href="#order">ORDER</a><a href="#care">CARE</a></div>
+
+<header>
+<nav>
+
+<a class="logo" href="#">
+<small>HANDMADE FLORALS + GIFTS</small>
+Layla's Lilies
+</a>
+
+<div class="links">
+<a href="#menu">BOUQUETS</a>
+<a href="#pricing">PRICING</a>
+<a href="#gallery">GALLERY</a>
+<a href="#order">ORDER</a>
+<a href="#care">CARE</a>
+</div>
+
 <a class="pill" href="#order">REQUEST AN ORDER</a>
-</nav></header>
+
+</nav>
+</header>
 
 <main>
 
 <section class="hero" id="home">
-<img class="hero-img" src="hero-bouquet.png" alt="Layla's Lilies pink rose bouquet hero">
+<img
+class="hero-img"
+src="hero-bouquet.png"
+alt="Layla's Lilies pink rose bouquet hero">
 </section>
 
+
 <section id="menu">
+
 <div class="eyebrow">01 / THE MENU</div>
+
 <h2>Pick your obsession.</h2>
-<p class="intro">Everything is handmade and customizable — flowers, colors, wrapping, ribbons, themes and add-ons.</p>
+
+<p class="intro">
+Everything is handmade and customizable — flowers, colors, wrapping, ribbons, themes and add-ons.
+</p>
 
 <div class="grid">
-<article class="card"><div class="eyebrow">FRESH</div><h3>Fresh Mixed Bouquets</h3><p>Fresh flowers selected around your flower choices, season, bouquet size and customization. Available as wraps or vases.</p><b>Starting at $45</b></article>
 
-<article class="card"><div class="eyebrow">ETERNAL</div><h3>Eternal Flowers</h3><p>Long-lasting flower options for themed bouquets, keepsakes and gifts.</p><b>From $5</b></article>
+<article class="card">
+<div class="eyebrow">FRESH</div>
+<h3>Fresh Mixed Bouquets</h3>
+<p>
+Fresh flowers selected around your flower choices, season, bouquet size and customization. Available as wraps or vases.
+</p>
+<b>Starting at $45</b>
+</article>
 
-<article class="card"><div class="eyebrow">VASE</div><h3>Vase Arrangements</h3><p>Fresh mixed arrangements designed directly for a vase. Fresh mixed pricing applies.</p><b>Starting at $45</b></article>
+<article class="card">
+<div class="eyebrow">ETERNAL</div>
+<h3>Eternal Flowers</h3>
+<p>
+Long-lasting flower options for themed bouquets, keepsakes and gifts.
+</p>
+<b>From $5</b>
+</article>
 
-<article class="card"><div class="eyebrow">GIFTS</div><h3>Makeup Bouquets</h3><p>Custom gift bouquets built around makeup and beauty items.</p></article>
+<article class="card">
+<div class="eyebrow">VASE</div>
+<h3>Vase Arrangements</h3>
+<p>
+Fresh mixed arrangements designed directly for a vase. Fresh mixed pricing applies.
+</p>
+<b>Starting at $45</b>
+</article>
 
-<article class="card"><div class="eyebrow">GIFTS</div><h3>Hat Bouquets</h3><p>Floral gift designs incorporating hats and personalized details.</p></article>
+<article class="card">
+<div class="eyebrow">GIFTS</div>
+<h3>Makeup Bouquets</h3>
+<p>
+Custom gift bouquets built around makeup and beauty items.
+</p>
+</article>
 
-<article class="card"><div class="eyebrow">GIFTS</div><h3>Diaper Bouquets</h3><p>Creative baby gift arrangements made around your theme.</p></article>
+<article class="card">
+<div class="eyebrow">GIFTS</div>
+<h3>Hat Bouquets</h3>
+<p>
+Floral gift designs incorporating hats and personalized details.
+</p>
+</article>
 
-<article class="card"><div class="eyebrow">GIFTS</div><h3>Cart Bouquets</h3><p>Custom cart designed around the occasion.</p></article>
+<article class="card">
+<div class="eyebrow">GIFTS</div>
+<h3>Diaper Bouquets</h3>
+<p>
+Creative baby gift arrangements made around your theme.
+</p>
+</article>
 
-<article class="card"><div class="eyebrow">GIFTS</div><h3>Money Bouquets</h3><p>Custom bouquets designed around money gifting and your chosen theme.</p></article>
+<article class="card">
+<div class="eyebrow">GIFTS</div>
+<h3>Cart Bouquets</h3>
+<p>
+Custom floral gift carts designed around the occasion.
+</p>
+</article>
 
-<article class="card"><div class="eyebrow">GIFTS</div><h3>Custom Gift Baskets</h3><p>Personalized baskets built around the person, occasion and items you want included.</p></article>
+<article class="card">
+<div class="eyebrow">GIFTS</div>
+<h3>Money Bouquets</h3>
+<p>
+Custom bouquets designed around money gifting and your chosen theme.
+</p>
+</article>
 
-<article class="card"><div class="eyebrow">EVENTS</div><h3>Weddings + Events</h3><p>Custom event florals including bridal and bridesmaid bouquets.</p><b>DM for a quote</b></article>
+<article class="card">
+<div class="eyebrow">GIFTS</div>
+<h3>Custom Gift Baskets</h3>
+<p>
+Personalized baskets built around the person, occasion and items you want included.
+</p>
+</article>
+
+<article class="card">
+<div class="eyebrow">EVENTS</div>
+<h3>Weddings + Events</h3>
+<p>
+Custom event florals including bridal and bridesmaid bouquets.
+</p>
+<b>DM for a quote</b>
+</article>
+
 </div>
 </section>
 
+
 <section id="pricing" class="pink">
+
 <div class="eyebrow">02 / PRICING</div>
+
 <h2>The flower menu.</h2>
-<p class="intro">Fresh mixed pricing varies based on flower selection, season, bouquet size and customization. Fresh mixed pricing applies to wraps and vases.</p>
+
+<p class="intro">
+Fresh mixed pricing varies based on flower selection, season, bouquet size and customization. Fresh mixed pricing applies to wraps and vases.
+</p>
 
 <div class="pricegrid">
 
+
 <div>
+
 <h3 class="sub">Eternal Flowers</h3>
-<div class="row"><span>Daisy + lavender</span><b>$5</b></div>
-<div class="row"><span>Plumeria + tulips</span><b>$6</b></div>
-<div class="row"><span>Short-petal sunflowers</span><b>$7</b></div>
-<div class="row"><span>Long-petal sunflowers</span><b>$9</b></div>
-<div class="row"><span>Lotus</span><b>$9</b></div>
-<div class="row"><span>Dahlia</span><b>$9</b></div>
+
+<div class="row">
+<span>Daisy + lavender</span>
+<b>$5</b>
 </div>
+
+<div class="row">
+<span>Plumeria + tulips</span>
+<b>$6</b>
+</div>
+
+<div class="row">
+<span>Short-petal sunflowers</span>
+<b>$7</b>
+</div>
+
+<div class="row">
+<span>Long-petal sunflowers</span>
+<b>$9</b>
+</div>
+
+<div class="row">
+<span>Lotus</span>
+<b>$9</b>
+</div>
+
+<div class="row">
+<span>Dahlia</span>
+<b>$9</b>
+</div>
+
+
+<h3 class="sub" style="margin-top:45px">
+Eternal Roses
+</h3>
+
+<div class="row">
+<span>Single</span>
+<b>$6</b>
+</div>
+
+<div class="row">
+<span>12 Count</span>
+<b>$45</b>
+</div>
+
+<div class="row">
+<span>18 Count</span>
+<b>$65</b>
+</div>
+
+<div class="row">
+<span>25 Count</span>
+<b>$85</b>
+</div>
+
+<div class="row">
+<span>30 Count</span>
+<b>$110</b>
+</div>
+
+<div class="row">
+<span>50 Count</span>
+<b>$175</b>
+</div>
+
+<div class="row">
+<span>75 Count</span>
+<b>$250</b>
+</div>
+
+</div>
+
 
 <div>
-<h3 class="sub">Fresh Mixed Bouquets + Vases</h3>
-<div class="row"><span>Petite Bouquet</span><b>Starting at $45</b></div>
-<div class="row"><span>Small Bouquet</span><b>Starting at $65</b></div>
-<div class="row"><span>Medium Bouquet</span><b>Starting at $90</b></div>
-<div class="row"><span>Large Bouquet</span><b>Starting at $125</b></div>
-<div class="row"><span>Luxury Bouquet</span><b>Starting at $175+</b></div>
+
+<h3 class="sub">
+Fresh Mixed Bouquets + Vases
+</h3>
+
+<div class="row">
+<span>Petite Bouquet</span>
+<b>Starting at $45</b>
+</div>
+
+<div class="row">
+<span>Small Bouquet</span>
+<b>Starting at $65</b>
+</div>
+
+<div class="row">
+<span>Medium Bouquet</span>
+<b>Starting at $90</b>
+</div>
+
+<div class="row">
+<span>Large Bouquet</span>
+<b>Starting at $125</b>
+</div>
+
+<div class="row">
+<span>Luxury Bouquet</span>
+<b>Starting at $175+</b>
+</div>
+
+
+<h3 class="sub" style="margin-top:45px">
+Authentic Flower Collection
+</h3>
+
+<p class="intro" style="font-size:14px">
+Pricing varies based on flower type, season, availability, and customization.
+</p>
+
+<h3 class="sub" style="margin-top:30px">
+Authentic Roses
+</h3>
+
+<div class="row">
+<span>Single</span>
+<b>$7</b>
+</div>
+
+<div class="row">
+<span>12 Count</span>
+<b>$55</b>
+</div>
+
+<div class="row">
+<span>18 Count</span>
+<b>$75</b>
+</div>
+
+<div class="row">
+<span>25 Count</span>
+<b>$100</b>
+</div>
+
+<div class="row">
+<span>30 Count</span>
+<b>$120</b>
+</div>
+
+<div class="row">
+<span>50 Count</span>
+<b>$200</b>
+</div>
+
+<div class="row">
+<span>75 Count</span>
+<b>$275</b>
 </div>
 
 </div>
 
-<div style="margin-top:55px">
-<h3 class="sub">Authentic Flower Collection</h3>
-<p class="intro">Pricing varies based on flower type, season, availability, and customization.</p>
-
-<h3 class="sub" style="margin-top:30px">Authentic Roses</h3>
-<div class="row"><span>Single</span><b>$7</b></div>
-<div class="row"><span>12 Count</span><b>$55</b></div>
-<div class="row"><span>18 Count</span><b>$75</b></div>
-<div class="row"><span>25 Count</span><b>$100</b></div>
-<div class="row"><span>30 Count</span><b>$120</b></div>
-<div class="row"><span>50 Count</span><b>$200</b></div>
-<div class="row"><span>75 Count</span><b>$275</b></div>
 </div>
 
-<h3 class="sub" style="margin-top:55px">Add-ons</h3>
+
+<h3 class="sub" style="margin-top:55px">
+Add-ons
+</h3>
 
 <div class="addgrid">
-<div class="addon"><span>Small bows, stickers, butterflies, cherries, strawberries</span><b>$3</b></div>
-<div class="addon"><span>Large bows, small crowns, candies, custom cutout toppers</span><b>$5</b></div>
-<div class="addon"><span>Pearls, diamonds</span><b>$7</b></div>
-<div class="addon"><span>Crochet flowers, chocolates, ribbon message, glitter roses</span><b>$10</b></div>
-<div class="addon"><span>Large crowns, mirror message, custom wrapping paper, pearl mesh, custom baby's breath topper, balloon(s), plushie</span><b>$15+</b></div>
+
+<div class="addon">
+<span>Small bows, stickers, butterflies, cherries, strawberries</span>
+<b>$3</b>
 </div>
 
-<p class="intro" style="font-size:13px">Prices may vary depending on quantity.</p>
+<div class="addon">
+<span>Large bows, small crowns, candies, custom cutout toppers</span>
+<b>$5</b>
+</div>
+
+<div class="addon">
+<span>Pearls, diamonds</span>
+<b>$7</b>
+</div>
+
+<div class="addon">
+<span>Crochet flowers, chocolates, ribbon message, glitter roses</span>
+<b>$10</b>
+</div>
+
+<div class="addon">
+<span>Large crowns, mirror message, custom wrapping paper, pearl mesh, custom baby's breath topper, balloon(s), plushie</span>
+<b>$15+</b>
+</div>
+
+</div>
+
+<p class="intro" style="font-size:13px">
+Prices may vary depending on quantity.
+</p>
+
 </section>
+
 
 <section id="gallery">
+
 <div class="eyebrow">03 / YOUR VISION</div>
+
 <h2>Made around your idea.</h2>
-<p class="intro">Inspiration pictures are appreciated. Tell Layla's Lilies what you love about a design and what you'd like changed — colors, flowers, wrapping, themes and personal details can all be customized.</p>
+
+<p class="intro">
+Inspiration pictures are appreciated. Tell Layla's Lilies what you love about a design and what you'd like changed — colors, flowers, wrapping, themes and personal details can all be customized.
+</p>
+
 </section>
 
+
 <section id="order">
+
 <div class="formwrap">
+
 <div>
+
 <div class="eyebrow">04 / ORDER REQUEST</div>
+
 <h2>Let's make it.</h2>
-<p class="intro">Submit a request first — no payment is taken here. After reviewing your request, Layla's Lilies will confirm the design, total, deposit and pickup/delivery details.</p>
+
+<p class="intro">
+Submit a request first — no payment is taken here. After reviewing your request, Layla's Lilies will confirm the design, total, deposit and pickup/delivery details.
+</p>
+
 </div>
 
-<form class="form" action="mailto:laylaslilies@gmail.com" method="post" enctype="text/plain">
+
+<form
+class="form"
+action="mailto:laylaslilies@gmail.com"
+method="post"
+enctype="text/plain">
+
 <div class="fg">
 
-<div><label>Name</label><input name="Name" required></div>
-<div><label>Phone / Contact</label><input name="Contact" required></div>
-<div><label>Occasion</label><input name="Occasion"></div>
-<div><label>Needed by</label><input name="Date" type="date"></div>
+<div>
+<label>Name</label>
+<input name="Name" required>
+</div>
+
+<div>
+<label>Phone / Contact</label>
+<input name="Contact" required>
+</div>
+
+<div>
+<label>Occasion</label>
+<input name="Occasion">
+</div>
+
+<div>
+<label>Needed by</label>
+<input name="Date" type="date">
+</div>
 
 <div>
 <label>Product</label>
+
 <select name="Product">
 <option>Fresh mixed bouquet — wrap</option>
 <option>Fresh mixed bouquet — vase</option>
 <option>Eternal flower bouquet</option>
+<option>Authentic rose bouquet</option>
 <option>Makeup bouquet</option>
 <option>Hat bouquet</option>
 <option>Diaper bouquet</option>
@@ -156,10 +699,12 @@ footer{max-width:1180px;margin:auto;padding:27px 22px;display:flex;justify-conte
 <option>Wedding / event flowers</option>
 <option>Other custom order</option>
 </select>
+
 </div>
 
 <div>
 <label>Size</label>
+
 <select name="Size">
 <option>Not sure yet</option>
 <option>Petite</option>
@@ -168,84 +713,1100 @@ footer{max-width:1180px;margin:auto;padding:27px 22px;display:flex;justify-conte
 <option>Large</option>
 <option>Luxury</option>
 </select>
+
 </div>
 
-<div class="full"><label>Colors + flower choices</label><input name="Colors"></div>
-<div class="full"><label>Add-ons / special details</label><textarea name="Add-ons"></textarea></div>
-<div class="full"><label>Tell me your vision</label><textarea name="Vision" required></textarea></div>
+<div class="full">
+<label>Colors + flower choices</label>
+<input name="Colors">
+</div>
+
+<div class="full">
+<label>Add-ons / special details</label>
+<textarea name="Add-ons"></textarea>
+</div>
+
+<div class="full">
+<label>Tell me your vision</label>
+<textarea name="Vision" required></textarea>
+</div>
 
 <div class="full">
 <label>Pickup or delivery</label>
+
 <select name="Fulfillment">
 <option>Pickup</option>
 <option>Delivery</option>
 <option>Not sure yet</option>
 </select>
-</div>
 
-<div class="full"><label>Inspiration / notes</label><textarea name="Inspiration"></textarea></div>
-<div class="full"><label>Budget (optional)</label><input name="Budget" placeholder="$100–$150"></div>
+</div>
 
 <div class="full">
-<label><input type="checkbox" required> I understand this is a request, not a confirmed order.</label>
+<label>Inspiration / notes</label>
+<textarea name="Inspiration"></textarea>
 </div>
 
-<div class="full"><button class="pill" type="submit">SUBMIT REQUEST ↗</button></div>
+<div class="full">
+<label>Budget (optional)</label>
+<input name="Budget" placeholder="$100–$150">
+</div>
+
+<div class="full">
+<label>
+<input type="checkbox" required>
+I understand this is a request, not a confirmed order.
+</label>
+</div>
+
+<div class="full">
+<button class="pill" type="submit">
+SUBMIT REQUEST ↗
+</button>
+</div>
 
 </div>
+
 </form>
+
 </div>
+
 </section>
 
+
 <section id="care" class="pink">
+
 <div class="eyebrow">05 / CARE + POLICIES</div>
+
 <h2>Before you order.</h2>
 
 <div class="policygrid">
-<div>
-
-<div class="policy"><b>Order lead time</b><p>Please place your order at least 2 weeks ahead.</p></div>
-
-<div class="policy"><b>Deposits</b><p>Standard orders require a 30% non-refundable deposit. Custom orders require a 30%–50% non-refundable deposit depending on materials.</p></div>
-
-<div class="policy"><b>Rush orders</b><p>Orders placed 5 days or sooner require a $30 squeeze-in fee.</p></div>
-
-<div class="policy"><b>Pickup + delivery</b><p>Discuss pickup or delivery options a week prior. Delivery fee is a minimum of $10.</p></div>
-
-<div class="policy"><b>Payments</b><p>Cash, Cash App and Square (Tap to Pay) are accepted.</p></div>
-
-<div class="policy"><b>Inspiration</b><p>Inspiration pictures are appreciated.</p></div>
-
-</div>
 
 <div>
 
-<div class="policy"><b>Flower Care Instructions — Authentic Flowers</b><p>Add flower food to clean water. Change water every 2–3 days with fresh, cold water. Keep flowers at room temperature and away from direct sunlight. Trim stems diagonally about ½ inch each time the water is changed.</p></div>
+<div class="policy">
+<b>Order lead time</b>
+<p>Please place your order at least 2 weeks ahead.</p>
+</div>
 
-<div class="policy"><b>Flower Care Instructions — Eternal Flowers</b><p>Eternal flowers require little to no maintenance. Keep them in a safe area and avoid excessive handling to maintain their shape and appearance. With proper care, they are designed to be a long-lasting keepsake.</p></div>
+<div class="policy">
+<b>Deposits</b>
+<p>
+Standard orders require a 30% non-refundable deposit. Custom orders require a 30%–50% non-refundable deposit depending on materials.
+</p>
+</div>
 
-<div class="policy"><b>Order Care & Responsibility</b><p>Once an order has been picked up or delivered, the customer is responsible for the care and handling of the arrangement. I am not responsible for damage, improper handling, or changes to the arrangement after it leaves my possession. Please handle all bouquets with care to maintain their quality, appearance, and longevity.</p></div>
+<div class="policy">
+<b>Rush orders</b>
+<p>
+Orders placed 5 days or sooner require a $30 squeeze-in fee.
+</p>
+</div>
 
-<div class="policy"><b>Fresh Flower Availability</b><p>Fresh flower selection may vary by season and availability. If a requested flower is unavailable, alternatives can be discussed before the design is finalized.</p></div>
+<div class="policy">
+<b>Pickup + delivery</b>
+<p>
+Discuss pickup or delivery options a week prior. Delivery fee is a minimum of $10.
+</p>
+</div>
 
-<div class="policy"><b>Custom Pricing</b><p>Custom bouquets and gifts are priced according to materials, flowers, size, design and customization. A final quote is confirmed before the order is locked in.</p></div>
+<div class="policy">
+<b>Payments</b>
+<p>
+Cash, Cash App and Square (Tap to Pay) are accepted.
+</p>
+</div>
+
+<div class="policy">
+<b>Inspiration</b>
+<p>
+Inspiration pictures are appreciated.
+</p>
+</div>
 
 </div>
+
+
+<div>
+
+<div class="policy">
+<b>Flower Care Instructions — Authentic Flowers</b>
+<p>
+Add flower food to clean water. Change water every 2–3 days with fresh, cold water. Keep flowers at room temperature and away from direct sunlight. Trim stems diagonally about ½ inch each time the water is changed.
+</p>
 </div>
+
+<div class="policy">
+<b>Flower Care Instructions — Eternal Flowers</b>
+<p>
+Eternal flowers require little to no maintenance. Keep them in a safe area and avoid excessive handling to maintain their shape and appearance. With proper care, they are designed to be a long-lasting keepsake.
+</p>
+</div>
+
+<div class="policy">
+<b>Order Care & Responsibility</b>
+<p>
+Once an order has been picked up or delivered, the customer is responsible for the care and handling of the arrangement. I am not responsible for damage, improper handling, or changes to the arrangement after it leaves my possession. Please handle all bouquets with care to maintain their quality, appearance, and longevity.
+</p>
+</div>
+
+<div class="policy">
+<b>Fresh Flower Availability</b>
+<p>
+Fresh flower selection may vary by season and availability. If a requested flower is unavailable, alternatives can be discussed before the design is finalized.
+</p>
+</div>
+
+<div class="policy">
+<b>Custom Pricing</b>
+<p>
+Custom bouquets and gifts are priced according to materials, flowers, size, design and customization. A final quote is confirmed before the order is locked in.
+</p>
+</div>
+
+</div>
+
+</div>
+
 </section>
 
+
 <section class="cta">
-<div class="eyebrow" style="color:#c8d2c3">MADE FOR THE MOMENT</div>
-<h2>Have an idea? Let's turn it into flowers.</h2>
-<p>Tell me the occasion, colors, flowers, size, add-ons and anything else you're dreaming up.</p>
-<a class="pill" href="#order">REQUEST YOUR ORDER ↗</a>
+
+<div class="eyebrow" style="color:#c8d2c3">
+MADE FOR THE MOMENT
+</div>
+
+<h2>
+Have an idea? Let's turn it into flowers.
+</h2>
+
+<p>
+Tell me the occasion, colors, flowers, size, add-ons and anything else you're dreaming up.
+</p>
+
+<a class="pill" href="#order">
+REQUEST YOUR ORDER ↗
+</a>
+
 </section>
 
 </main>
 
+
 <footer>
+
 <span>© 2026 Layla's Lilies</span>
-<span>@laylaslilies · Custom flowers + gifts</span>
+
+<span>
+@laylaslilies · Custom flowers + gifts
+</span>
+
+</footer>
+
+</body>
+</html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Layla's Lilies — Flower Bouquets</title>
+<meta name="description" content="Layla's Lilies — custom bouquets, fresh mixed flowers, eternal flowers, gifts and event florals.">
+
+<style>
+:root{--cream:#fff9f6;--pink:#e8a8bc;--pink2:#f3d6df;--rose:#c96f8d;--ink:#392a30;--sage:#71806b;--line:#ead8de}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--cream);color:var(--ink);font-family:Arial,sans-serif;line-height:1.55}
+a{text-decoration:none;color:inherit}
+
+header{
+position:sticky;
+top:0;
+z-index:20;
+background:#fff9f6eF;
+backdrop-filter:blur(15px);
+border-bottom:1px solid var(--line)
+}
+
+nav{
+max-width:1180px;
+margin:auto;
+padding:15px 22px;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:22px
+}
+
+.logo{
+font:italic 31px Georgia,serif;
+color:var(--rose)
+}
+
+.logo small{
+display:block;
+font:9px monospace;
+letter-spacing:2px;
+color:#765c65;
+font-style:normal
+}
+
+.links{
+display:flex;
+gap:22px;
+font:12px monospace
+}
+
+.links a:hover{color:var(--rose)}
+
+.pill{
+border:1px solid var(--ink);
+background:var(--ink);
+color:white;
+border-radius:999px;
+padding:11px 17px;
+font:10px monospace;
+letter-spacing:1px
+}
+
+.hero{
+max-width:1180px;
+margin:auto;
+padding:44px 22px 60px
+}
+
+.hero-img{
+display:block;
+width:100%;
+height:auto;
+border-radius:28px;
+box-shadow:0 25px 70px #8b5f7022
+}
+
+section{
+max-width:1180px;
+margin:auto;
+padding:82px 22px
+}
+
+.pink{
+max-width:none;
+background:var(--pink2);
+padding-left:max(22px,calc((100% - 1136px)/2));
+padding-right:max(22px,calc((100% - 1136px)/2))
+}
+
+.eyebrow{
+font:10px monospace;
+letter-spacing:2px;
+text-transform:uppercase;
+color:var(--sage)
+}
+
+h2{
+font:normal clamp(42px,6vw,72px)/1 Georgia,serif;
+letter-spacing:-2px;
+margin:8px 0 14px
+}
+
+.intro{
+max-width:680px;
+color:#75696d
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:14px;
+margin-top:30px
+}
+
+.card{
+background:#fff;
+border:1px solid var(--line);
+padding:26px;
+min-height:195px
+}
+
+.card h3{
+font:normal 25px Georgia,serif;
+margin:15px 0 7px
+}
+
+.card p{
+font-size:14px;
+color:#75696d
+}
+
+.pricegrid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:55px;
+margin-top:35px
+}
+
+.sub{
+font:normal 24px Georgia,serif
+}
+
+.row{
+display:flex;
+justify-content:space-between;
+gap:15px;
+border-bottom:1px solid var(--line);
+padding:12px 0;
+font-size:14px
+}
+
+.addgrid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:10px;
+margin-top:20px
+}
+
+.addon{
+background:#fff;
+border:1px solid var(--line);
+padding:14px;
+display:flex;
+justify-content:space-between;
+gap:12px;
+font-size:13px
+}
+
+.formwrap{
+display:grid;
+grid-template-columns:.7fr 1.3fr;
+gap:55px
+}
+
+.form{
+background:#fff;
+border:1px solid var(--line);
+padding:28px
+}
+
+.fg{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:14px
+}
+
+label{
+display:block;
+font:9px monospace;
+letter-spacing:1px;
+text-transform:uppercase;
+margin-bottom:6px
+}
+
+input,select,textarea{
+width:100%;
+padding:12px;
+border:1px solid var(--line);
+background:#fffaf8;
+color:var(--ink);
+font:14px Arial;
+border-radius:3px
+}
+
+textarea{
+min-height:90px;
+resize:vertical
+}
+
+.full{
+grid-column:1/-1
+}
+
+.policygrid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:50px;
+margin-top:28px
+}
+
+.policy{
+border-top:1px solid var(--line);
+padding:15px 0
+}
+
+.policy b{
+font:10px monospace;
+letter-spacing:1px;
+text-transform:uppercase
+}
+
+.policy p{
+font-size:14px;
+color:#75696d;
+margin:6px 0
+}
+
+.cta{
+max-width:none;
+background:var(--ink);
+color:white;
+text-align:center
+}
+
+.cta p{
+max-width:600px;
+margin:10px auto 25px;
+color:#ddd2d6
+}
+
+.cta .pill{
+background:transparent;
+border-color:white
+}
+
+footer{
+max-width:1180px;
+margin:auto;
+padding:27px 22px;
+display:flex;
+justify-content:space-between;
+font:10px monospace
+}
+
+@media(max-width:800px){
+.links{display:none}
+.hero{padding-top:25px}
+.grid,.pricegrid,.formwrap,.policygrid{grid-template-columns:1fr}
+.addgrid,.fg{grid-template-columns:1fr}
+.full{grid-column:auto}
+.hero-img{border-radius:18px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+
+<a class="logo" href="#">
+<small>HANDMADE FLORALS + GIFTS</small>
+Layla's Lilies
+</a>
+
+<div class="links">
+<a href="#menu">BOUQUETS</a>
+<a href="#pricing">PRICING</a>
+<a href="#gallery">GALLERY</a>
+<a href="#order">ORDER</a>
+<a href="#care">CARE</a>
+</div>
+
+<a class="pill" href="#order">REQUEST AN ORDER</a>
+
+</nav>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+<img
+class="hero-img"
+src="hero-bouquet.png"
+alt="Layla's Lilies pink rose bouquet hero">
+</section>
+
+
+<section id="menu">
+
+<div class="eyebrow">01 / THE MENU</div>
+
+<h2>Pick your obsession.</h2>
+
+<p class="intro">
+Everything is handmade and customizable — flowers, colors, wrapping, ribbons, themes and add-ons.
+</p>
+
+<div class="grid">
+
+<article class="card">
+<div class="eyebrow">FRESH</div>
+<h3>Fresh Mixed Bouquets</h3>
+<p>
+Fresh flowers selected around your flower choices, season, bouquet size and customization. Available as wraps or vases.
+</p>
+<b>Starting at $45</b>
+</article>
+
+<article class="card">
+<div class="eyebrow">ETERNAL</div>
+<h3>Eternal Flowers</h3>
+<p>
+Long-lasting flower options for themed bouquets, keepsakes and gifts.
+</p>
+<b>From $5</b>
+</article>
+
+<article class="card">
+<div class="eyebrow">VASE</div>
+<h3>Vase Arrangements</h3>
+<p>
+Fresh mixed arrangements designed directly for a vase. Fresh mixed pricing applies.
+</p>
+<b>Starting at $45</b>
+</article>
+
+<article class="card">
+<div class="eyebrow">GIFTS</div>
+<h3>Makeup Bouquets</h3>
+<p>
+Custom gift bouquets built around makeup and beauty items.
+</p>
+</article>
+
+<article class="card">
+<div class="eyebrow">GIFTS</div>
+<h3>Hat Bouquets</h3>
+<p>
+Floral gift designs incorporating hats and personalized details.
+</p>
+</article>
+
+<article class="card">
+<div class="eyebrow">GIFTS</div>
+<h3>Diaper Bouquets</h3>
+<p>
+Creative baby gift arrangements made around your theme.
+</p>
+</article>
+
+<article class="card">
+<div class="eyebrow">GIFTS</div>
+<h3>Cart Bouquets</h3>
+<p>
+Custom floral gift carts designed around the occasion.
+</p>
+</article>
+
+<article class="card">
+<div class="eyebrow">GIFTS</div>
+<h3>Money Bouquets</h3>
+<p>
+Custom bouquets designed around money gifting and your chosen theme.
+</p>
+</article>
+
+<article class="card">
+<div class="eyebrow">GIFTS</div>
+<h3>Custom Gift Baskets</h3>
+<p>
+Personalized baskets built around the person, occasion and items you want included.
+</p>
+</article>
+
+<article class="card">
+<div class="eyebrow">EVENTS</div>
+<h3>Weddings + Events</h3>
+<p>
+Custom event florals including bridal and bridesmaid bouquets.
+</p>
+<b>DM for a quote</b>
+</article>
+
+</div>
+</section>
+
+
+<section id="pricing" class="pink">
+
+<div class="eyebrow">02 / PRICING</div>
+
+<h2>The flower menu.</h2>
+
+<p class="intro">
+Fresh mixed pricing varies based on flower selection, season, bouquet size and customization. Fresh mixed pricing applies to wraps and vases.
+</p>
+
+<div class="pricegrid">
+
+
+<div>
+
+<h3 class="sub">Eternal Flowers</h3>
+
+<div class="row">
+<span>Daisy + lavender</span>
+<b>$5</b>
+</div>
+
+<div class="row">
+<span>Plumeria + tulips</span>
+<b>$6</b>
+</div>
+
+<div class="row">
+<span>Short-petal sunflowers</span>
+<b>$7</b>
+</div>
+
+<div class="row">
+<span>Long-petal sunflowers</span>
+<b>$9</b>
+</div>
+
+<div class="row">
+<span>Lotus</span>
+<b>$9</b>
+</div>
+
+<div class="row">
+<span>Dahlia</span>
+<b>$9</b>
+</div>
+
+
+<h3 class="sub" style="margin-top:45px">
+Eternal Roses
+</h3>
+
+<div class="row">
+<span>Single</span>
+<b>$6</b>
+</div>
+
+<div class="row">
+<span>12 Count</span>
+<b>$45</b>
+</div>
+
+<div class="row">
+<span>18 Count</span>
+<b>$65</b>
+</div>
+
+<div class="row">
+<span>25 Count</span>
+<b>$85</b>
+</div>
+
+<div class="row">
+<span>30 Count</span>
+<b>$110</b>
+</div>
+
+<div class="row">
+<span>50 Count</span>
+<b>$175</b>
+</div>
+
+<div class="row">
+<span>75 Count</span>
+<b>$250</b>
+</div>
+
+</div>
+
+
+<div>
+
+<h3 class="sub">
+Fresh Mixed Bouquets + Vases
+</h3>
+
+<div class="row">
+<span>Petite Bouquet</span>
+<b>Starting at $45</b>
+</div>
+
+<div class="row">
+<span>Small Bouquet</span>
+<b>Starting at $65</b>
+</div>
+
+<div class="row">
+<span>Medium Bouquet</span>
+<b>Starting at $90</b>
+</div>
+
+<div class="row">
+<span>Large Bouquet</span>
+<b>Starting at $125</b>
+</div>
+
+<div class="row">
+<span>Luxury Bouquet</span>
+<b>Starting at $175+</b>
+</div>
+
+
+<h3 class="sub" style="margin-top:45px">
+Authentic Flower Collection
+</h3>
+
+<p class="intro" style="font-size:14px">
+Pricing varies based on flower type, season, availability, and customization.
+</p>
+
+<h3 class="sub" style="margin-top:30px">
+Authentic Roses
+</h3>
+
+<div class="row">
+<span>Single</span>
+<b>$7</b>
+</div>
+
+<div class="row">
+<span>12 Count</span>
+<b>$55</b>
+</div>
+
+<div class="row">
+<span>18 Count</span>
+<b>$75</b>
+</div>
+
+<div class="row">
+<span>25 Count</span>
+<b>$100</b>
+</div>
+
+<div class="row">
+<span>30 Count</span>
+<b>$120</b>
+</div>
+
+<div class="row">
+<span>50 Count</span>
+<b>$200</b>
+</div>
+
+<div class="row">
+<span>75 Count</span>
+<b>$275</b>
+</div>
+
+</div>
+
+</div>
+
+
+<h3 class="sub" style="margin-top:55px">
+Add-ons
+</h3>
+
+<div class="addgrid">
+
+<div class="addon">
+<span>Small bows, stickers, butterflies, cherries, strawberries</span>
+<b>$3</b>
+</div>
+
+<div class="addon">
+<span>Large bows, small crowns, candies, custom cutout toppers</span>
+<b>$5</b>
+</div>
+
+<div class="addon">
+<span>Pearls, diamonds</span>
+<b>$7</b>
+</div>
+
+<div class="addon">
+<span>Crochet flowers, chocolates, ribbon message, glitter roses</span>
+<b>$10</b>
+</div>
+
+<div class="addon">
+<span>Large crowns, mirror message, custom wrapping paper, pearl mesh, custom baby's breath topper, balloon(s), plushie</span>
+<b>$15+</b>
+</div>
+
+</div>
+
+<p class="intro" style="font-size:13px">
+Prices may vary depending on quantity.
+</p>
+
+</section>
+
+
+<section id="gallery">
+
+<div class="eyebrow">03 / YOUR VISION</div>
+
+<h2>Made around your idea.</h2>
+
+<p class="intro">
+Inspiration pictures are appreciated. Tell Layla's Lilies what you love about a design and what you'd like changed — colors, flowers, wrapping, themes and personal details can all be customized.
+</p>
+
+</section>
+
+
+<section id="order">
+
+<div class="formwrap">
+
+<div>
+
+<div class="eyebrow">04 / ORDER REQUEST</div>
+
+<h2>Let's make it.</h2>
+
+<p class="intro">
+Submit a request first — no payment is taken here. After reviewing your request, Layla's Lilies will confirm the design, total, deposit and pickup/delivery details.
+</p>
+
+</div>
+
+
+<form
+class="form"
+action="mailto:laylaslilies@gmail.com"
+method="post"
+enctype="text/plain">
+
+<div class="fg">
+
+<div>
+<label>Name</label>
+<input name="Name" required>
+</div>
+
+<div>
+<label>Phone / Contact</label>
+<input name="Contact" required>
+</div>
+
+<div>
+<label>Occasion</label>
+<input name="Occasion">
+</div>
+
+<div>
+<label>Needed by</label>
+<input name="Date" type="date">
+</div>
+
+<div>
+<label>Product</label>
+
+<select name="Product">
+<option>Fresh mixed bouquet — wrap</option>
+<option>Fresh mixed bouquet — vase</option>
+<option>Eternal flower bouquet</option>
+<option>Authentic rose bouquet</option>
+<option>Makeup bouquet</option>
+<option>Hat bouquet</option>
+<option>Diaper bouquet</option>
+<option>Cart bouquet</option>
+<option>Money bouquet</option>
+<option>Custom gift basket</option>
+<option>Wedding / event flowers</option>
+<option>Other custom order</option>
+</select>
+
+</div>
+
+<div>
+<label>Size</label>
+
+<select name="Size">
+<option>Not sure yet</option>
+<option>Petite</option>
+<option>Small</option>
+<option>Medium</option>
+<option>Large</option>
+<option>Luxury</option>
+</select>
+
+</div>
+
+<div class="full">
+<label>Colors + flower choices</label>
+<input name="Colors">
+</div>
+
+<div class="full">
+<label>Add-ons / special details</label>
+<textarea name="Add-ons"></textarea>
+</div>
+
+<div class="full">
+<label>Tell me your vision</label>
+<textarea name="Vision" required></textarea>
+</div>
+
+<div class="full">
+<label>Pickup or delivery</label>
+
+<select name="Fulfillment">
+<option>Pickup</option>
+<option>Delivery</option>
+<option>Not sure yet</option>
+</select>
+
+</div>
+
+<div class="full">
+<label>Inspiration / notes</label>
+<textarea name="Inspiration"></textarea>
+</div>
+
+<div class="full">
+<label>Budget (optional)</label>
+<input name="Budget" placeholder="$100–$150">
+</div>
+
+<div class="full">
+<label>
+<input type="checkbox" required>
+I understand this is a request, not a confirmed order.
+</label>
+</div>
+
+<div class="full">
+<button class="pill" type="submit">
+SUBMIT REQUEST ↗
+</button>
+</div>
+
+</div>
+
+</form>
+
+</div>
+
+</section>
+
+
+<section id="care" class="pink">
+
+<div class="eyebrow">05 / CARE + POLICIES</div>
+
+<h2>Before you order.</h2>
+
+<div class="policygrid">
+
+<div>
+
+<div class="policy">
+<b>Order lead time</b>
+<p>Please place your order at least 2 weeks ahead.</p>
+</div>
+
+<div class="policy">
+<b>Deposits</b>
+<p>
+Standard orders require a 30% non-refundable deposit. Custom orders require a 30%–50% non-refundable deposit depending on materials.
+</p>
+</div>
+
+<div class="policy">
+<b>Rush orders</b>
+<p>
+Orders placed 5 days or sooner require a $30 squeeze-in fee.
+</p>
+</div>
+
+<div class="policy">
+<b>Pickup + delivery</b>
+<p>
+Discuss pickup or delivery options a week prior. Delivery fee is a minimum of $10.
+</p>
+</div>
+
+<div class="policy">
+<b>Payments</b>
+<p>
+Cash, Cash App and Square (Tap to Pay) are accepted.
+</p>
+</div>
+
+<div class="policy">
+<b>Inspiration</b>
+<p>
+Inspiration pictures are appreciated.
+</p>
+</div>
+
+</div>
+
+
+<div>
+
+<div class="policy">
+<b>Flower Care Instructions — Authentic Flowers</b>
+<p>
+Add flower food to clean water. Change water every 2–3 days with fresh, cold water. Keep flowers at room temperature and away from direct sunlight. Trim stems diagonally about ½ inch each time the water is changed.
+</p>
+</div>
+
+<div class="policy">
+<b>Flower Care Instructions — Eternal Flowers</b>
+<p>
+Eternal flowers require little to no maintenance. Keep them in a safe area and avoid excessive handling to maintain their shape and appearance. With proper care, they are designed to be a long-lasting keepsake.
+</p>
+</div>
+
+<div class="policy">
+<b>Order Care & Responsibility</b>
+<p>
+Once an order has been picked up or delivered, the customer is responsible for the care and handling of the arrangement. I am not responsible for damage, improper handling, or changes to the arrangement after it leaves my possession. Please handle all bouquets with care to maintain their quality, appearance, and longevity.
+</p>
+</div>
+
+<div class="policy">
+<b>Fresh Flower Availability</b>
+<p>
+Fresh flower selection may vary by season and availability. If a requested flower is unavailable, alternatives can be discussed before the design is finalized.
+</p>
+</div>
+
+<div class="policy">
+<b>Custom Pricing</b>
+<p>
+Custom bouquets and gifts are priced according to materials, flowers, size, design and customization. A final quote is confirmed before the order is locked in.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="cta">
+
+<div class="eyebrow" style="color:#c8d2c3">
+MADE FOR THE MOMENT
+</div>
+
+<h2>
+Have an idea? Let's turn it into flowers.
+</h2>
+
+<p>
+Tell me the occasion, colors, flowers, size, add-ons and anything else you're dreaming up.
+</p>
+
+<a class="pill" href="#order">
+REQUEST YOUR ORDER ↗
+</a>
+
+</section>
+
+</main>
+
+
+<footer>
+
+<span>© 2026 Layla's Lilies</span>
+
+<span>
+@laylaslilies · Custom flowers + gifts
+</span>
+
 </footer>
 
 </body>
